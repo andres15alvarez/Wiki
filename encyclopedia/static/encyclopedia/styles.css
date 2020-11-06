@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+form label{
+    margin: 5px;
+}
+
+#id_page{
+    margin: 5px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 1px;
+    line-break: auto;
+    width: 98%;
+    height: 300px;
+}
+
+.button-container{
+    margin: 10px 30px 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#button{
+    background-color: #b3b1b1;
+    border: 1px solid #b3b1b1;
+    border-radius: 2px;
+    display: flex;
+    justify-content: end;
+}
+
+.edit-button{
+    margin: 5px 20px 5px 5px;
+    display: flex;
+    justify-content: flex-end;
+}
